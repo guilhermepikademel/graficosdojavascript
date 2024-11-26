@@ -9,7 +9,7 @@ async function vizualizarInformacoesGlobais() {
     console.log(paragrafo)
 
     const container = document.getElementById('graficos-container')
-container.appendChild(paragrafo)
+    container.appendChild(paragrafo)
   }
   
   vizualizarInformacoesGlobais()
